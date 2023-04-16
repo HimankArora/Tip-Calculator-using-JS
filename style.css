@@ -1,0 +1,49 @@
+body{
+    background: rgb(71, 127, 134);
+    background: linear-gradient(0deg, rgba(71, 127, 134, 1) 44%, rgba(154, 186, 128, 1) 74%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+ border: 5px dotted palevioletred;
+ border-radius: 10px;
+ padding: 20px;
+}
+h2{
+    background-color: rgb(71, 127, 134);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px ;
+    color: rgba(154, 186, 128, 1);
+}
+h3, select{
+    color: palevioletred
+}
+input{
+    background-color: transparent;
+    border: none;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    color: palevioletred;
+}
+#servicequality{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    color: palevioletred;
+}
+button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    color: palevioletred;
+}
+button:hover{
+    background-color: palevioletred;
+    color: white;
+}
